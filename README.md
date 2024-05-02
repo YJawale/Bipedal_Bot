@@ -1,6 +1,6 @@
 # Bipedal_Bot
 Constructed a bipedal robot capable of walking with two Degrees of Freedom (DOF) on the XY-plane. The system was crafted using six metal gear servo motors, each powered by an external power supply to ensure ample amperage supply without any shortfall. 
-
+Reference for the project - https://www.instructables.com/Arduino-Controlled-Robotic-Biped/
 The 'constants.h' file can be used to set the initial home positions (where the bot stands striaght), by running the initial_setup.ino code file.
 These values might vary from bot-to-to, since it depends on the way the servos are mounted.
 'Biped_Kinems.ino' has implemented inverse kinematics to calculate each angle of the joint, which is passed as a signal to the servos.
